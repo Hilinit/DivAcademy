@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <title>Div Academy</title>
+    </head>
+    <body>
+        <header>
+            <div id="header">
+                <div id="logo"><a href="#"><img src="img/divlogo.png" alt="logo" /></a></div>
+                <div id="bars"><i class="fa-solid fa-bars"></i></div>
+                <nav>
+                    <ul id="nav">
+                        <li>Akademiya <i class="fa-solid fa-angle-down"></i></li>
+                        <li>Tədris <i class="fa-solid fa-angle-down"></i></li>
+                        <li>Kariyera mərkəzi <i class="fa-solid fa-angle-down"></i></li>
+                        <li>Korparativ</li>
+                        <li>Əlaqə</li>
+                    </ul>
+                    <ul id="social">
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    </ul>
+                </nav>
+                <img id="lang" src="img/azflag.png" alt="flag" />
+                <a href="" id="btn1">Müraciət et</a>
+           </div>
+           <div id="hero">
+                <div id="hero-text">
+                    <h1>Dərəcəli diplom <span>fərqləndirməyə bilməz.</span></h1>
+                    <p>Pulsuz demo dərs ilə sına</p>
+                </div>
+                <a href="" id="btn">Sınaq dərsinə yazıl</a>
+                <div id="hero-img"><img src="img/heroimg.png" alt="hero" /></div>
+           </div>
+        </header>
+        <main>
+            <!-- ---------------------------Teaching---------------------------- -->
+            <section id="Teaching">
+                <h2>Hansı sahəni öyrənmək <br /><span>ən böyük arzundur?</span></h2>
+                <div id="Teaching-cards">
+                    <div class="card" style="background-color:#fbe7dd">
+                        <p class="period">12 ay, həftədə 3 gün</p>
+                        <img src="img/cours-icon.png" alt="cours-icon" />
+                        <h3>Fullstack Proqramlaşdırma</h3>
+                        <p>HTML, CSS, Tailwind, JS, React, NextJS, NodeJS, MongoDB, XML, API, Git, Deployment</p>
+                    </div>
+    
+                    <div class="card" style="background-color:#f7edae">
+                        <p class="period">5 ay, həftədə 2 gün</p>
+                        <img src="img/cours-icon.png" alt="cours-icon" />
+                        <h3>Digital Marketing</h3>
+                        <p>Marketinqə giriş, Rəqəmsal marketinq, SMM, Kontent ilə işləmə, Google Ads və s.</p>
+                    </div>
+    
+                    <div class="card" style="background-color:#e8daf9">
+                        <p class="period">6 ay, həftədə 3 gün</p>
+                        <img src="img/cours-icon.png" alt="cours-icon" />
+                        <h3>Data Science</h3>
+                        <p>Data Science-a giriş, Python, SQL, Data analitika, Machine Learning, Süni intellekt</p>
+                    </div>
+    
+                    <div class="card" style="background-color:#e4fccc">
+                        <p class="period">3 ay, həftədə 2 gün</p>
+                        <img src="img/cours-icon.png" alt="cours-icon" />
+                        <h3>IT Project Management</h3>
+                        <p>Agile, Waterfall metodları, Project structures, Soft skills, Risk analysis və s.</p>
+                    </div>
+    
+                    <div class="card" style="background-color:#d3e4ff">
+                        <p class="period">4 ay, həftədə 2 gün</p>
+                        <img src="img/cours-icon.png" alt="cours-icon" />
+                        <h3>IT Biznes Analitika</h3>
+                        <p>Agile, Scrum, Requirements, User Stories, BPMN, Jira, SQL, Security, Soft Skills, Product Ownership</p>
+                    </div>
+    
+                    <div class="card" style="background-color:#ffe0e0">
+                        <p class="period">8 ay, həftədə 3 gün</p>
+                        <img src="img/cours-icon.png" alt="cours-icon" />
+                        <h3>AI Engineering</h3>
+                        <p>Python, Machine Learning, Data, Pandas, NumPy, TensorFlow, Computer Vision, NLP, MLOps</p>
+                    </div>
+    
+                    <div class="card"   style="background-color:#d7e7e3">
+                        <p class="period">8 ay, həftədə 3 gün</p>
+                        <img src="img/cours-icon.png" alt="cours-icon" />
+                        <h3>Kibertəhlükəsizlik</h3>
+                        <p>Network, Windows/Linux, SIEM, SOC, Threat Detection, Incident Response, Firewall və s.</p>
+                    </div>
+                </div>
+            </section>
+
+<!-- -------------------------------------Teachers------------------------------------------------------ -->
+            <section id="teachers">
+                <div id="teachers-container">  
+                    <div class="teachers-header">
+                        <h2 id="teachers-title">Hansı müəllimlər sənə <br><span>arzuladığın təhsili verəcək?</span></h2>
+                    </div>
+                    <div id="teachers-cards">
+                        <div class="teacher-card">
+                            <div class="teacher-img">
+                                <img src="img/VahidQ.png" alt="Vahid Qasim" >
+                            </div>
+                            <div class="teacher-info">
+                                <h4 class="teacher-name">Vahid Qasım, MBA</h4>
+                                <p class="teacher-ex">İT üzrə 18 il təcrübəyə malik, 500-dən çox veb layihənin müəllifi, Sahil IT şirkətinin qurucusudur</p>
+                            </div>
+                        </div>
+                        <div class="teacher-card">
+                            <div class="teacher-img">
+                                <img src="img/TogrulX.png" alt="Toğrul Xələfi">
+                            </div>
+                            <div class="teacher-info">
+                                <h4 class="teacher-name">Toğrul Xələfi</h4>
+                                <p class="teacher-ex">Facebook və Google Ads kampaniyaları üzrə mütəxəssisdir, hazırda ABB-də Senior Digital Marketing Specialist vəzifəsindədir</p>
+                            </div>
+                        </div>
+                        <div class="teacher-card">
+                            <div class="teacher-img">
+                                <img src="img/RəsulZ.png" alt="Rəsul Zaidov">
+                            </div>
+                            <div class="teacher-info">
+                                <h4 class="teacher-name">Rəsul Zaidov </h4>
+                                <p class="teacher-ex">10 illik reklam təcrübəsinə malikdir, kreativ, kopiraytinq, kontent və kommunikasiya mütəxəssisidir</p>
+                            </div>
+                        </div>
+                        <div class="teacher-card">
+                            <div class="teacher-img">
+                                <img src="img/ElgunA.png" alt="Elgun Abdulrrahmanov">
+                            </div>
+                            <div class="teacher-info">
+                                <h4 class="teacher-name">Elgün Abdurrahmanov</h4>
+                                <p class="teacher-ex">Müxtəlif reklam agentliklərində təcrübəyə malikdir, hazırda Yelo Bank-da Senior Copywriter vəzifəsindədir</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 20 müəllim var, 20 card yazanda kod çoxalır(onsuz da copy-paste-dir) -->
+            </section>
+<!-- -------------------------------------Entrance-photo------------------------------------------------------ -->
+            <div id="entrance-photo">
+                <img src="img/div_photo.jpg" alt="div_photo">
+            </div>
+<!-- --------------------------------------Rewievs----------------------------------------------------------------------- -->
+            <section id="reviews">
+                <h2>Tələbələr bizim haqqda <br><span>nə düşünür?</span>
+                </h2>
+                <div id="review-cards">
+                    <div class="review-card">
+                        <img src="img/rewiev1.png" alt="review">
+                        <div class="review-info">
+                            <h4>Elnur Hüseynov danışır</h4>
+                            <p>Div Academy</p>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <img src="img/rewiev2.png" alt="review">
+                        <div class="review-info">
+                            <h4>Nigar Əhmədzadə danışır</h4>
+                            <p>Div Academy</p>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <img src="img/rewiev3.png" alt="review">
+                        <div class="review-info">
+                            <h4>Bülbül İsmayılova danışır</h4>
+                            <p>Div Academy</p>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <img src="img/rewiev4.png" alt="review">
+                        <div class="review-info">
+                            <h4>Rəşad Mustafazadə danışır</h4>
+                            <p>Div Academy</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<!-- -------------------------------------------WhyUs------------------------------------------------------- -->
+
+<!-- -------------------------------------------Graduates----------------------------------------------- -->
+            <section id="graduates">
+                <div id="grad-container">
+                    <h2 id="grad-title">Məzunlar <br><span>hara getdi?</span></h2>
+                    <div id="grad-cards">
+                        <div class="grad-card">
+                                <img src="img/nihat.jpg" alt="Nihat İsmayılzadə" class="grad-img" />
+                                <div>
+                                    <p class="grad-name">Nihat İsmayılzadə</p>
+                                    <div class="company">
+                                        <img src="img/kontaktHome.png" alt="Kontakt" class="comp-logo" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grad-card">
+                                <img src="img/guler.jpg" alt="Gülər Məmmədova" class="grad-img" />
+                                <div>
+                                    <p class="grad-name">Gülər Məmmədova</p>
+                                    <div class="company">
+                                        <img src="img/Veyseloglu.png" alt="Veysəloğlu" class="comp-logo" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grad-card">
+                                <img src="img/intiqam.jpg" alt="İntiqam Bəşirov" class="grad-img" />
+                                <div>
+                                    <p class="grad-name">İntiqam Bəşirov</p>
+                                    <div class="company">
+                                        <img src="img/imgi_53_aztelekom.png" alt="Aztelekom" class="comp-logo">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grad-card">
+                                <img src="img/ilahiyye.jpg" alt="İlahiyye Sərdarlı" class="grad-img" />
+                                <div>
+                                    <p class="grad-name">İlahiyye Sərdarlı</p>
+                                    <div class="company">
+                                        <img src="img/BazarS.png" alt="Bazarstore" class="comp-logo" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grad-card">
+                                <img src="img/sukur.jpg" alt="Orxan Qədirli" class="grad-img" />
+                                <div>
+                                    <p class="grad-name">Orxan Qədirli</p>
+                                    <div class="company">
+                                        <img src="img/kapital.png" alt="Bazarstore" class="comp-logo" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grad-card">
+                                <img src="img/orxan.jpg" alt="İlahiyye Sərdarlı" class="grad-img" />
+                                <div>
+                                    <p class="grad-name">İlahiyye Sərdarlı</p>
+                                    <div class="company">
+                                        <img src="img/kontaktHome.png" alt="Bazarstore" class="comp-logo">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grad-card">
+                                <img src="img/puste.jpg" alt="Püstə Sadıqova" class="grad-img" />
+                                <div>
+                                    <p class="grad-name">Püstə Sadıqova</p>
+                                    <div class="company">
+                                        <img src="img/abv.png" alt="Bazarstore" class="comp-logo" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grad-card">
+                                <img src="img/aysel.jpg" alt="Aysel İskəndərova" class="grad-img" />
+                                <div>
+                                    <p class="grad-name">Aysel İskəndərova</p>
+                                    <div class="company">
+                                        <img src="img/kapital.png" alt="Bazarstore" class="comp-logo" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grad-card">
+                                <img src="img/qudret.jpg" alt="Qüdrət Qüdrətli" class="grad-img" />
+                                <div>
+                                    <p class="grad-name">Qüdrət Qüdrətli</p>
+                                    <div class="company">
+                                        <img src="img/unibank.png" alt="Bazarstore" class="comp-logo" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grad-card">
+                                <img src="img/jale.jpg" alt="Jalə Şəmiyeva" class="grad-img" />
+                                <div>
+                                    <p class="grad-name">Jalə Şəmiyeva</p>
+                                    <div class="company">
+                                        <img src="img/ETSN.png" alt="Bazarstore" class="comp-logo" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grad-card">
+                                <img src="img/sekine.jpg" alt="Səkinə Balayeva" class="grad-img" />
+                                <div>
+                                    <p class="grad-name">Səkinə Balayeva</p>
+                                    <div class="company">
+                                        <img src="img/bolt.png" alt="Bazarstore" class="comp-logo" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grad-card">
+                                <img src="img/yusif.jpg" alt="Yusif Paşayev" class="grad-img" />
+                                <div>
+                                    <p class="grad-name">Yusif Paşayev</p>
+                                    <div class="company">
+                                        <img src="img/copat.png" alt="Bazarstore" class="comp-logo" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grad-card">
+                                <img src="img/ziya.jpg" alt="Ziya Mirzəyev" class="grad-img" />
+                                <div>
+                                    <p class="grad-name">Ziya Mirzəyev</p>
+                                    <div class="company">
+                                        <img src="img/soliton.png" alt="Bazarstore" class="comp-logo" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grad-card">
+                                <img src="img/Vuqar.jpg" alt="Vüqar Abdulrrahmanov" class="grad-img" />
+                                <div>
+                                    <p class="grad-name">Vüqar Abdulrrahmanov</p>
+                                    <div class="company">
+                                        <img src="img/GardaslarM.png" alt="Bazarstore" class="comp-logo" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grad-card">
+                                <img src="img/xeyyam.jpg" alt="Xəyyam Əlizadə" class="grad-img" />
+                                <div>
+                                    <p class="grad-name">Xəyyam Əlizadə</p>
+                                    <div class="company">
+                                        <img src="img/Cybernet.png" alt="Bazarstore" class="comp-logo" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+<!-- -------------------------------------Partners------------------------------------------------------ -->
+            <section id="partners">
+                <h2 id="p-title">Partnyor <br /><span>və tərəfdaşlarımız.</span></h2>
+                <div id="p-logos">
+                    <div class="p-card"><img src="img/ada.png" alt="ADA"></div>
+                    <div class="p-card"><img src="img/kontakt.png" alt="Kontakt"></div>
+                    <div class="p-card"><img src="img/DMA.png" alt="DMA"></div>
+                    <div class="p-card"><img src="img/sabah.png" alt="SABAH"></div>
+                    <div class="p-card"><img src="img/RIA.png" alt="IRIA"></div>
+                    <div class="p-card"><img src="img/kapital.png" alt="Kapital"></div>
+                    <div class="p-card"><img src="img/ARIA.png" alt="Mincom"></div>
+                    <div class="p-card"><img src="img/OTM.png" alt="Assosiasiya"></div>
+                    <div class="p-card"><img src="img/abb.png" alt="ABB"></div>
+                    <div class="p-card"><img src="img/hesab.png" alt="Hesab"></div>
+                    <div class="p-card"><img src="img/ulduzum.png" alt="Ulduzum"></div>
+                    <div class="p-card"><img src="img/unibank.png" alt="Unibank"></div>
+                </div>
+            </section>
+
+<!-- -----------------------------------------------Diploma--------------------------------- -->
+            <section id="diploma">
+                <h2>Dərəcəli diplom <br><span>və sertifikat.</span></h2>
+                <div class="diploma-box">
+                    <div class="diploma-img">
+                        <img src="img/diploma.png" alt="Diploma">
+                    </div>
+                    <div class="diploma-content">
+                        <h3>Çəkdiyin əziyyət hədər olmasın</h3>
+                        <p>
+                            Təhsilə həvəsi olan ilə daha çox həvəsi olanı fərqləndirmək üçün ədalətli dərəcələndirmə metodu tətbiq etmişik. Davamiyyət, aylıq testlərdən aldığın nəticələr və final layihədə qazandığın bal ilə yekun bal ortaya çıxır və nəticənə uyğun dərəcə ilə diploma sahib olursan.
+                        </p>
+                        <a href="#" class="btn">Pulsuz sınaq dərsinə yazıl</a>
+                    </div>
+                </div>
+            </section>
+
+<!-- ------------------------------------Guaranty------------------------------------------------------- -->
+
+            <section id="Guaranty">
+                <div id="info">
+                    <h2>Tədrisin sonuna qədər öyrənə bilməsən <span>tamamilə ödənişsiz şərtlərlə yenidən təhsil al.</span></h2>
+                    <div id="text">
+                        <p>Hər kəsin öyrənmə sürəti eyni deyil. Biz bunu başa düşür və öyrənənədək sənin yanındayıq! Finland təhsil modelinin əsas sütunlarından birini individual qavrama məntiqi və müvafiq həllyönümlü yanaşma təşkil edir. 
+                        Akademiyada finland metodunun digər prinsipləri kimi, məhz bu xüsusiyyət də tətbiq edilir.</p>
+                    </div>
+                </div>
+            </section>
+
+<!-- --------------------------------------------------Classroom----------------------------------------------------------- -->
+
+            <section id="classroom">
+                <div id="heading">
+                    <h2 >Hansı məkanda <br><span>təhsil alacaqsan?</span></h2>
+                    <div id="slider-controls">
+                        <button class="control-btn"><</button>
+                        <button class="control-btn active">></button>
+                    </div>
+                </div>
+                <div class="relative flex items-center justify-center w-full h-[400px] md:h-[300px] lg:h-[500px] dark:text-gray-900">
+                    <div class="flex items-center justify-start w-full h-full gap-10 py-8 mx-auto overflow-auto lg:gap-12">
+                        <div class="relative flex shrink-0 w-full sm:w-auto">
+                            <img class="object-cover object-center dark:bg-gray-500 h-96 aspect-square" src="img/Classroom1.jpg" alt="Image 1">
+                        </div>
+
+                        <div class="relative flex shrink-0 w-full sm:w-auto">
+                            <img class="object-cover object-center dark:bg-gray-500 h-96 aspect-square" src="img/Classroom2.jpg" alt="Image 2">
+                        </div>
+
+                        <div class="relative flex shrink-0 w-full sm:w-auto">
+                            <img class="object-cover object-center dark:bg-gray-500 h-96 aspect-square" src="img/classroom3.jpg" alt="Image 3">
+                        </div>
+                        
+                        <div class="relative flex shrink-0 w-full sm:w-auto">
+                            <img class="object-cover object-center dark:bg-gray-500 h-96 aspect-square" src="img/classroom4.jpg" alt="Image 4">
+                        </div>
+
+                        <div class="relative flex shrink-0 w-full sm:w-auto">
+                            <img class="object-cover object-center dark:bg-gray-500 h-96 aspect-square" src="img/classroom5.jpg" alt="Image 5">
+                        </div>
+
+                        <div class="relative flex shrink-0 w-full sm:w-auto">
+                            <img class="object-cover object-center dark:bg-gray-500 h-96 aspect-square" src="img/colidoor.jpg" alt="Image 5">
+                        </div>
+
+                        <div class="relative flex shrink-0 w-full sm:w-auto">
+                            <img class="object-cover object-center dark:bg-gray-500 h-96 aspect-square" src="img/colidoor2.jpg" alt="Image 5">
+                        </div>
+
+                        <div class="relative flex shrink-0 w-full sm:w-auto">
+                            <img class="object-cover object-center dark:bg-gray-500 h-96 aspect-square" src="img/bootcamp1.jpg" alt="Image 5">
+                        </div>
+
+                        <div class="relative flex shrink-0 w-full sm:w-auto">
+                            <img class="object-cover object-center dark:bg-gray-500 h-96 aspect-square" src="img/bootcamp2.jpg" alt="Image 5">
+                        </div>
+
+                        <div class="relative flex shrink-0 w-full sm:w-auto">
+                            <img class="object-cover object-center dark:bg-gray-500 h-96 aspect-square" src="img/bootcamp3.jpg" alt="Image 5">
+                        </div>
+                    </div>
+                </div>
+            </section>
+                
+<!-- -------------------------------------Social-Projects------------------------------------------------------------------------ -->
+            <section id="social-projects">
+                <div id="s-container">
+                    <h2 id="sp-title">Daha yaxşı dünya üçün <br><span>sosial məsuliyyət layihələrimiz.</span></h2>
+                    <div id="projects-cards">
+                        <div class="project-card card1">
+                            <div class="cover">
+                                <span class="tag">SOSİAL LAYİHƏLƏR</span>
+                                <p class="card-text">70 nəfər şəhid ailəsi və həssas əhali üzvünə pulsuz təhsil verdik</p>
+                            </div>
+                        </div>
+                        <div class="project-card card2">
+                            <div class="cover">
+                                <span class="tag">SOSİAL LAYİHƏLƏR</span>
+                                <p class="card-text">Bölgələrdə gənclər üçün ödənişsiz Microsoft Office dərsləri keçdik</p>
+                            </div>
+                        </div>
+                        <div class="project-card card3">
+                            <div class="cover">
+                                <span class="tag">SOSİAL LAYİHƏLƏR</span>
+                                <p class="card-text">Fiziki məhdudiyyətli şəxsləri ödənişsiz təhsillə təmin etdik</p>
+                            </div>
+                        </div>
+                        <div class="project-card card4">
+                            <div class="cover">
+                                <span class="tag">SOSİAL LAYİHƏLƏR</span>
+                                <p class="card-text">Rəqəmsal dünyada xanımların gücünü ortaya qoyduq</p>
+                            </div>
+                        </div>
+                        <div class="project-card card5">
+                            <div class="cover">
+                                <span class="tag">SOSİAL LAYİHƏLƏR</span>
+                                <p class="card-text">70 nəfər şəhid ailəsi və həssas əhali üzvünə pulsuz təhsil verdik</p>
+                            </div>
+                        </div>
+                        <div class="project-card card6">
+                            <div class="cover">
+                                <span class="tag">SOSİAL LAYİHƏLƏR</span>
+                                <p class="card-text">Bölgələrdə gənclər üçün ödənişsiz Microsoft Office dərsləri keçdik</p>
+                            </div>
+                        </div>
+                        <div class="project-card card7">
+                            <div class="cover">
+                                <span class="tag">SOSİAL LAYİHƏLƏR</span>
+                                <p class="card-text">Fiziki məhdudiyyətli şəxsləri ödənişsiz təhsillə təmin etdik</p>
+                            </div>
+                        </div>
+                        <div class="project-card card8">
+                            <div class="cover">
+                                <span class="tag">SOSİAL LAYİHƏLƏR</span>
+                                <p class="card-text">Rəqəmsal dünyada xanımların gücünü ortaya qoyduq</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+           
+<!-- ---------------------------Salary Calculator---------------------------------- -->
+            <section id="salary-calculator">
+            <div id="calc">
+                <div class="calc-inputs">
+                    <h2 id="calc-title">Gələcək maaşını <br>hesabla 🧐</h2>
+                    <div class="form-group">
+                        <select id="field">
+                            <option value="">-- Sahəni seç --</option>
+                            <option value="frontend">Frontend Developer</option>
+                            <option value="backend">Backend Developer</option>
+                        </select>
+                    </div>
+                    <div id="radio">
+                        <p>Necə öyrənəcəksən?</p>
+                        <div class="radio-group">
+                            <label><input type="radio" checked> Div Academy-də</label>
+                            <label><input type="radio"> Özüm</label>
+                            <label><input type="radio"> Digər kurslarda</label>
+                        </div>
+                    </div>
+                    <div class="range">
+                        <legend>Gündə neçə saat məşğul olacaqsan?</legend>
+                        <div class="range-group">
+                            <span class="range-value">0</span>
+                            <input type="range" min="0" max="12" value="0">
+                            <span class="unit">saat</span>
+                        </div>
+                    </div>
+                    <div class="radio-section">
+                        <p class="section-label">İngilis dili biliyin</p>
+                        <div class="radio-group">
+                            <label><input type="radio" name="lang" checked> Zəif</label>
+                            <label><input type="radio" name="lang"> Orta</label>
+                            <label><input type="radio" name="lang"> Əla</label>
+                        </div>
+                    </div>
+                </div>
+                <div id="calc-results">
+                    <div class="result-item">
+                        <p>Ortalama maaş 🚀</p>
+                        <div class="salary-icon">₼</div>
+                    </div>
+                    <br />
+                    <div class="result-details">
+                        <div class="detail-box">
+                            <span>İnvestisiyanın geri dönüş müddəti</span>
+                            <strong>ay</strong>
+                        </div>
+                        <div class="detail-box">
+                            <span>Gələcək vəzifən</span>
+                            <strong>-</strong>
+                        </div>
+                        <div class="detail-box">
+                            <span>Xarici şirkətlərdən iş təklifi alma ehtimalın</span>
+                            <strong>%</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+            
+<!-- -------------------------------------------------------------------------------------------- -->
+            <section id="testimonials">
+                <div id="testimonial">
+                    <h2 id="test-title">Bizi tövsiyə <br><span>edirlər:</span></h2>
+                    <div id="testimonials-cards">
+                        <div class="testimonial-card">
+                            <img src="img/JafarNajaf.jpg" alt="Jafar Najaf" class="t-photo">
+                            <div class="user-content">
+                                <h3>Jafar Najaf</h3>
+                                <p class="user-role">Growth hacker, Chapple.ai startupının təsisçisi</p>
+                                <p class="comment">Bu sahədə karyera qurmaq istəyənlər üçün dəyərli seçim olduğunu düşünürəm və öz yaxınlarıma da tövsiyə edirəm.</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="img/SeymurRasulov.jpg" alt="Seymur Rasulov" class="user-photo">
+                            <div class="user-content">
+                                <h3>Seymur Rasulov</h3>
+                                <p class="user-role">Whelp startupının təsisçisi</p>
+                                <p class="comment">Tanıdığım, etibar etdiyim və öz yaxınlarıma da tövsiyə etdiyim IT sektorunda qabaqcıl akademiyalardan biridir.</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="img/TogrulElekber.jpg" alt="Toğrul Ələkbər" class="t-photo">
+                            <div class="user-content">
+                                <h3>Toğrul Ələkbər</h3> 
+                                <p class="user-role">Karyera məsləhətçisi, kouç</p>
+                                <p class="comment">Div Academy vizyonunu və yanaşmasını təqdir etdiyim, keyfiyyətinə güvəndiyim bir məkandır.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<!-- -------------------------------------Contact-------------------------------- -->
+            <section id="contact">
+                <div id="contact-container">
+                    <div id="info-column">
+                        <h2 id="main-title">👋 Sənə köməkçi olmaq üçün buradayıq</h2>
+                        <p id="main-text">Akademiya və tədris proqramları haqqında daha ətraflı məlumat üçün qeydiyyatdan keç</p>
+                        <div id="profile">
+                            <img src="img/MeryemXelilzade.png" alt="Məryəm Xəlilzadə" id="avatar" />
+                            <div id="profile-info">
+                                <h4>Məryəm Xəlilzadə</h4>
+                                <p>İnnovativ təhsil üzrə məsləhətçi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="form-column">
+                        <h3 id="form-title">💪 İlk addımı at, ödənişsiz sınaq dərsinə yazıl</h3>
+                        <form>
+                            <input type="text" placeholder="Ad soyadınız :" />
+                            <input type="tel" placeholder="Əlaqə nömrəniz :" />
+                            <select>
+                                <option>Tədrisi seçin</option>
+                                <option value="frontend">Frontend Proqramlaşdırma</option>
+                                <option value="backend">Backend Proqramlaşdırma</option>
+                            </select>
+                            <button type="submit" class="submit-btn">Müraciət et</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div id="f-left">
+                <img src="img/Future Writer.png" alt="Future Writer" />
+                <p>Copyright © 2025 Div Academy <br />Proqramlaşdırma kursları</p>
+            </div>
+            <div id="f-middle">
+                <ul>
+                    <li><a href="">Akademiya haqqında</a></li>
+                    <li><a href=""></a>Finland təhsil metodu</li>
+                    <li><a href="">Missiya və vizyon</a></li>
+                    <li><a href="">Vakansiyalar</a></li>
+                    <li><a href="">Sosial məsuliyyət</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Korporativ əməkdaşlıq</a></li>
+                    <li><a href="">Əlaqə</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="">Fullstack Proqramlaşdırma</a></li>
+                    <li><a href="">Digital Marketing</a></li>
+                    <li><a href="">Data Science</a></li>
+                    <li><a href="">IT Project Management</a></li>
+                    <li><a href="">IT Biznes Analitika</a></li>
+                    <li><a href="">AI Engineering</a></li>
+                    <li><a href="">Kibertəhlükəsizlik</a></li>
+                </ul>
+            </div>
+            <div id="f-right">
+                <ul id="social-f">
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                </ul>
+                <p id="phone">Telefon: + (994) 70 256 96 00</p>
+            </div>
+        </footer>
+        
+    </body>
+</html>
